@@ -49,7 +49,7 @@ export langToolWebName=web
 ```sh
 git clone https://github.com/mrvladis/aws-language-tool.git --config core.autocrlf=input
 git clone https://github.com/Erikvl87/docker-languagetool.git ./aws-language-tool/docker/
-cd aws-language-tool/cdk
+cd language-tool-ecs-fargate/cdk
 cdk bootstrap
 cdk deploy
 
